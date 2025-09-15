@@ -15,7 +15,7 @@ public class ProductOfArrayExceptSelf {
 		int suffix[] = new int[n];
 		int prifix[] = new int[n];
 		int ans[] = new int[n];
-		
+		//hi this is shobhit
 		prifix[0] = 1;
 		for(int i=1; i<n; i++) {
 			prifix[i] = prifix[i-1] * arr[i-1];
